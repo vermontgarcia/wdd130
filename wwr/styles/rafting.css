@@ -23,6 +23,7 @@ p {
 
 /* Body */
 body {
+  min-width: 800px;
   font-family: "Manjari", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -98,4 +99,121 @@ h1, h2 {
   width: 150px;
   height: auto;
   margin-left: 1rem;
+}
+
+header {
+  padding: 25px 10%;
+  display: grid;
+  grid-template-columns: 200px 3fr;
+  background-color: var(--accent-1);
+}
+
+.logo-wrapper {
+  place-self: center;
+}
+
+.logo-wrapper img {
+  width: 150px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav a {
+  background-color: var(--primary);
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--secondary);
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.history-details {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+}
+
+.history-details img {
+  width: 200px;
+  height: auto;
+}
+
+.history-details p {
+  padding: 0 1rem;
+}
+
+.history-wrapper h2 {
+  text-align: center;
+}
+
+.adventure-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adventure-wrapper .images-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.images-wrapper img {
+  width: 100%;
+}
+
+.images-wrapper figure {
+  padding: 0 10px;
+}
+
+.images-wrapper figcaption {
+  text-align: center;
+}
+
+footer {
+  background-color: var(--accent-1);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 3rem;
+}
+
+footer p {
+  grid-column: 2;
+  place-self: center;
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+footer img {
+  height: 25px;
+  padding: 0 5px;
+  filter: invert(20%) sepia(5%) saturate(1349%) hue-rotate(246deg) brightness(91%) contrast(87%);
+}
+
+footer img:hover {
+  filter: invert(39%) sepia(13%) saturate(1511%) hue-rotate(130deg) brightness(96%) contrast(92%);
+}
+
+section h2 {
+  color: var(--primary);
+}
+
+section {
+  padding: 1rem 0;
 }
