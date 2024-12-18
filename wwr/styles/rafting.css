@@ -218,8 +218,12 @@ section {
   color: var(--secondary);
 }
 
+.hero article > div > p:first-child {
+  margin-bottom: 1rem;
+}
+
 .hero-article-about-image {
-  width: 150px;
+  width: 250px;
   height: auto;
   margin-left: 1rem;
 }
@@ -230,8 +234,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  align-items: space-around;
+  align-items: flex-start;
 }
 
 .hero-article-section-contact div {
