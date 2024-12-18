@@ -138,11 +138,11 @@ header nav a:hover {
 
 .history-details {
   display: grid;
-  grid-template-columns: 1fr 200px 1fr;
+  grid-template-columns: 1fr 15% 1fr;
 }
 
 .history-details img {
-  width: 200px;
+  width: 100%;
   height: auto;
 }
 
@@ -197,14 +197,15 @@ footer nav {
   padding-right: 2rem;
 }
 
-footer img {
-  height: 25px;
+footer svg {
+  height: 2.2rem;
+  width: 2.2rem;
   padding: 0 5px;
-  filter: invert(20%) sepia(5%) saturate(1349%) hue-rotate(246deg) brightness(91%) contrast(87%);
+  fill: var(--primary);
 }
 
-footer img:hover {
-  filter: invert(39%) sepia(13%) saturate(1511%) hue-rotate(130deg) brightness(96%) contrast(92%);
+footer svg:hover {
+  fill: var(--accent-2);
 }
 
 section h2 {
