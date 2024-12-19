@@ -34,7 +34,9 @@ body {
   font-style: normal;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 /* Headings */
 h1, h2, h3 {
@@ -54,10 +56,6 @@ h1, h2, h3 {
   font-family: "Kalam", cursive;
   font-weight: 700;
   font-style: normal;
-}
-
-.social a {
-  text-decoration: none;
 }
 
 .hero {
@@ -126,7 +124,6 @@ header nav a {
   text-align: center;
   color: var(--secondary);
   padding: 0.5rem;
-  text-decoration: none;
 }
 
 header nav a:hover {
@@ -206,10 +203,6 @@ footer img:hover {
   filter: var(--svg-accent-2);
 }
 
-svg {
-  fill: var(--accent-2);
-}
-
 section h2, h3 {
   color: var(--primary);
 }
@@ -244,7 +237,7 @@ section {
   align-items: flex-start;
 }
 
-.hero-article-section-contact div {
+.hero-article-section-contact figure {
   padding: 15px;
   width: 30%;
 }
@@ -255,6 +248,10 @@ section {
 .hero-article-section-contact h2 {
   color: var(--secondary);
   text-align: center;
+}
+
+.hero-article-section-contact figcaption {
+  color: var(--secondary);
 }
 
 .location {
@@ -346,6 +343,12 @@ input, textarea {
 
 .radio-option, .checkbox-option {
   margin-left: 5px;
+  cursor: pointer;
+}
+
+.radio-option {
+  margin-right: 5px;
+  cursor: pointer;
 }
 
 button {
