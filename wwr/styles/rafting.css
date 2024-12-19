@@ -342,6 +342,7 @@ input, textarea {
 
 .radio-option, .checkbox-option {
   margin-left: 5px;
+  cursor: pointer;
 }
 
 button {
