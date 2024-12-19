@@ -11,6 +11,9 @@
   --accent-2: #307473;
   --accent-3: #2274A5;
   --width: 100vw;
+  /* colors for svg */
+  --svg-primary: invert(19%) sepia(2%) saturate(3956%) hue-rotate(246deg) brightness(92%) contrast(85%);
+  --svg-accent-2: invert(36%) sepia(6%) saturate(3647%) hue-rotate(130deg) brightness(101%) contrast(80%);
 }
 
 p {
@@ -192,14 +195,18 @@ footer nav {
   padding-right: 2rem;
 }
 
-footer svg {
+footer img {
   height: 2.2rem;
   width: 2.2rem;
   padding: 0 5px;
-  fill: var(--primary);
+  filter: var(--svg-primary);
 }
 
-footer svg:hover {
+footer img:hover {
+  filter: var(--svg-accent-2);
+}
+
+svg {
   fill: var(--accent-2);
 }
 
