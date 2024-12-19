@@ -206,10 +206,6 @@ footer img:hover {
   filter: var(--svg-accent-2);
 }
 
-svg {
-  fill: var(--accent-2);
-}
-
 section h2, h3 {
   color: var(--primary);
 }
