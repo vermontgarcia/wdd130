@@ -494,7 +494,7 @@ button:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.middle {
+.image-overlay {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -509,7 +509,7 @@ button:hover {
   opacity: 0.3;
 }
 
-.card:hover .middle {
+.card:hover .image-overlay {
   opacity: 1;
 }
 
