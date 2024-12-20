@@ -38,6 +38,10 @@ a {
   text-decoration: none;
 }
 
+figcaption {
+  padding-top: 5px;
+}
+
 /* Headings */
 h1, h2, h3 {
   font-family: "Kalam", cursive;
@@ -289,6 +293,10 @@ section h2, h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.location-details-rigth h3{
+  width: 40%;text-align: left;
 }
 
 .location-details iframe {
